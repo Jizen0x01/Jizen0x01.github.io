@@ -13,11 +13,11 @@
 minimal_mistakes_skin    : "air"
 # Site Settings
 locale                   : "en-US"
-title                    : "knassar702"
+title                    : "Jizen0x01 - InfoSec Blog"
 title_separator          : "-"
-name                     : "Khaled Nassar"
-description              : "web developer & web pentester"
-url                      : knassar702.github.io
+name                     : "Mohammed Sami"
+description              : "little boy has little dreams, a noob, a geek and a hacker wannabe."
+url                      : #
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -80,9 +80,9 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "knassar702"
+  username               : "Jizen0x01"
 facebook:
-  username               : "knassar702"
+  username               : "Jizen0x01"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -103,27 +103,27 @@ analytics:
 
 # Site Author
 author:
-  name             : "Khaled Nassar"
-  avatar           : https://avatars1.githubusercontent.com/u/45688522?s=460&u=5f1f1e0861b90c8e53fd638c8244b89eae80de0f&v=4
-  bio              : "web developer & web pentester"
+  name             : "Mohammed Sami"
+  avatar           : https://i.pinimg.com/originals/e3/08/7d/e3087d984951a5cfd5f5fc952e4b77f7.jpg
+  bio              : "little boy has little dreams, a noob, a geek and a hacker wannabe."
   location         : "Egypt"
-  email            : knassar702@gmail.com
+  email            : jilwyn@wearehackerone.com
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://knassar7o2.blogspot.com"
+      url: "#"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/profile.php?id=100015121337012"
+      url: "https://www.facebook.com/Jizen0x01"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/knassar702"
+      url: "https://github.com/Jizen0x01"
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/knassar7o2/"
+      url: "https://www.instagram.com/jizen_x86/"
     - label: "Linkedin"
-      url: "https://www.linkedin.com/in/khaled-nassar-03492a17b/"
+      url: "https://www.linkedin.com/in/mohammed-sami-0a15041b8/"
 
 # Site Footer
 footer:

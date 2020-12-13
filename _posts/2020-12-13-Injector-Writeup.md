@@ -17,7 +17,7 @@ By the way, I couldn't solve the machine through the vpn because of some problem
 >so first i'll do Nmap scan to find out which services running in this machine
 
 # []()Nmap Scan :
-```ruby
+```python
 # Nmap 7.91 scan initiated Sun Dec 13 16:14:30 2020 as: nmap -sV -sC -oN nmap 3.127.234.70
 Nmap scan report for ec2-3-127-234-70.eu-central-1.compute.amazonaws.com (3.127.234.70)
 Host is up (0.089s latency).
@@ -42,7 +42,7 @@ Well now we have 2 open ports which is :
 
 ![webserver](https://f.top4top.io/p_1808i2h201.png)
 
-it's Apache2 ubuntu default page, nothing is interesting here so let's do directory listing using gobuster.
+it's Apache2 ubuntu default page, nothing is interesting here so let's do directory bruteforcing using gobuster.
 
 ```python
 ┌─[kali@kali]─[~]
@@ -72,7 +72,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 
 ![dir](https://c.top4top.io/p_1808t0ppg1.png)
 
-nothing is interesting again so maybe let's do directory listing again!
+nothing is interesting again so maybe let's do directory bruteforcing again!
 
 ```python
 ┌─[kali@kali]─[~]

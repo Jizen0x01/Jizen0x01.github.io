@@ -28,3 +28,40 @@ PORT   STATE SERVICE VERSION
 |_http-title: Apache2 Ubuntu Default Page: It works
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
+Well now we have 2 open ports which is :
+
+* 22/tcp > ssh > OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux;protocol 2.0)
+* 80/tcp > http > Apache httpd 2.4.29 ((Ubuntu))
+
+> Now i'll check the webserver
+
+![webserver](https://f.top4top.io/p_1808i2h201.png)
+
+it's Apache2 ubuntu default page, nothing is interesting here so let's do directory listing using gobuster.
+
+```python
+┌─[root@kali]─[~]
+└──╼ $gobuster dir -u http://3.127.234.70/ -w /usr/share/dirb/wordlists/common.txt 
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://3.127.234.70/
+[+] Threads:        10
+[+] Wordlist:       /usr/share/dirb/wordlists/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/12/13 16:50:56 Starting gobuster
+===============================================================
+/.hta (Status: 403)
+/.htaccess (Status: 403)
+/.htpasswd (Status: 403)
+/index.html (Status: 200)
+/secret (Status: 301)
+/server-status (Status: 403)
+===============================================================
+2020/12/13 16:51:38 Finished
+===============================================================
+```

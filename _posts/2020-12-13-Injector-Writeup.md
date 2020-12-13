@@ -141,7 +141,7 @@ and i came back to the machine to read /etc/passwd and i found a user called ale
 
 ![alex](https://c.top4top.io/p_1808ucm1c1.png)
 
->now i used ![linux-exploit-suggester](https://raw.githubusercontent.com/jondonas/linux-exploit-suggester-2/master/linux-exploit-suggester-2.pl) to search for possible exploits but no exploits are available for this machine kernel version..
+>now i used linux-exploit-suggester to search for possible exploits but no exploits are available for this machine kernel version..
 
 so i typed sudo -l to see if there's anything running with root permissions and i found vim working with root permissions so i used this command to pop a r00t shell
 ```bash
@@ -153,6 +153,6 @@ and we got root flag.
 
 ![r00t!](https://j.top4top.io/p_1808volbp1.png)
 
-for any questions dm me on ![Facebook](https://facebook.com/Jizen0x01)
+for any questions dm me on facebook.
 
 * cheers!

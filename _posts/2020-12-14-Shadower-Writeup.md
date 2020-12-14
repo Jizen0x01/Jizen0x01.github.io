@@ -7,7 +7,7 @@ layout: single
 
 > as always there's a problem with the vpn so i solved the machine through it's public ip which is 18.193.123.37
 
-first i'll do nmap scan to dinf out whice services running
+first i'll do nmap scan to find out whice services running
 # Nmap Scan :
 ```ruby
 # Nmap 7.91 scan initiated Mon Dec 14 17:57:41 2020 as: nmap -sV -sC -oN nmap 18.193.123.37

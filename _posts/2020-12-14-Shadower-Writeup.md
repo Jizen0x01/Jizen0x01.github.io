@@ -68,8 +68,7 @@ for i in range(25):
 print("[+] Text Is : " ,text)
 ```
 and the result is 
-
-![encodingisheck](https://g.top4top.io/p_180906nz91.png)
+![img](https://g.top4top.io/p_180906nz91.png)
 
 now we only have the password B100dyPa$$w0rd
 

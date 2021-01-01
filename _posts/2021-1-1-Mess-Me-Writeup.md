@@ -4,6 +4,8 @@ date: "2021-1-1"
 layout: single
 ---
 
+![messme](https://j.top4top.io/p_1827enp1i1.png)
+
 | Details |                     |
 | ------------- |:-------------:|
 | Points        | 200           |
@@ -12,7 +14,6 @@ layout: single
 
 # Mess Me
 
-![messme](https://j.top4top.io/p_1827enp1i1.png)
 
 * Mess me is a Digital Forensics challenge was in New Year CTF which is an encrypted zip file with a password and had 2 files called flag.jpg and oracle.vdi 
 

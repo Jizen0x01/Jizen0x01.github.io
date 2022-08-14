@@ -1,5 +1,5 @@
 ---
-title: "SQL Attacks"
+title: "SQL Injection Attacks"
 date: "2022-08-12"
 layout: single
 ---

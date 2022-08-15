@@ -1,6 +1,6 @@
 ---
 title: "Template Injection Attacks"
-date: "2022-08-14"
+date: "2022-08-15"
 layout: single
 ---
 

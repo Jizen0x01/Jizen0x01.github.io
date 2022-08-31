@@ -16,7 +16,7 @@ locale                   : "en-US"
 title                    : "SL4X0 Blog"
 title_separator          : "-"
 name                     : "Abdelrhman Allam"
-description              : "M.A.C.S Student, Web Security Researcher, CTF Player"
+description              : "M.A.C.S Student"
 url                      : #
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

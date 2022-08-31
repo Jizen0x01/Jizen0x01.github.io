@@ -10,18 +10,18 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 # "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin    : "air"
+minimal_mistakes_skin    : "dark"
 # Site Settings
 locale                   : "en-US"
-title                    : "Jizen0x01 - InfoSec Blog"
+title                    : "SL4X0 Blog"
 title_separator          : "-"
-name                     : "Mohammed Sami"
-description              : "little boy has little dreams, a noob, a geek and a hacker wannabe."
+name                     : "Abdelrhman Allam"
+description              : "M.A.C.S Student "
 url                      : #
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+baseurl                  : https://sl4x0.github.io/ # the subpath of your site, e.g. "/blog"
+repository               : sl4x0/sl4x0.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : /assets/images/logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     :  /assets/images/logo.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs               : true # true, false (default)
 words_per_minute         : 200
@@ -80,9 +80,9 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "Jizen0x01"
+  username               : "sl4x0"
 facebook:
-  username               : "Jizen0x01"
+  username               : "sl4x0"
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -103,27 +103,27 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mohammed Sami"
-  avatar           : https://i.pinimg.com/originals/e3/08/7d/e3087d984951a5cfd5f5fc952e4b77f7.jpg
-  bio              : "little boy has little dreams, a noob, a geek and a hacker wannabe."
+  name             : "Abdelrhman Allam"
+  avatar           : https://i.pinimg.com/originals/da/fe/c3/dafec37b35d3ef8845bf2436b87d498a.jpg
+  bio              : "Web Security Student."
   location         : "Egypt"
-  email            : jilwyn@wearehackerone.com
+  email            : sl4x0@wearehackerone.com
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "#"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/Jizen0x01"
+      url: "https://www.facebook.com/sl4x0"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Jizen0x01"
+      url: "https://github.com/sl4x0"
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/jizen_x86/"
+      url: "https://www.instagram.com/sl4x0/"
     - label: "Linkedin"
-      url: "https://www.linkedin.com/in/mohammed-sami-0a15041b8/"
+      url: "https://www.linkedin.com/in/sl4x0/"
 
 # Site Footer
 footer:
@@ -136,7 +136,7 @@ footer:
       #url: ""
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Jizen0x01"
+      #url: ""
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url: ""
@@ -148,7 +148,7 @@ footer:
       # url: ""
     - label: "Linkedln"
       icon: "fab fa-fw fa-linkedin"
-
+      url : "https://www.linkedin.com/in/sl4x0/"
 
 
 # Reading Files
